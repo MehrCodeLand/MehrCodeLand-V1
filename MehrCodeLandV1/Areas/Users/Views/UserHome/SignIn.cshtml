@@ -1,0 +1,41 @@
+﻿@using Core.DTOs
+@model SignInViewModel
+@{
+    Layout = null;
+}
+
+<h2>SignIn</h2>
+@if(ViewBag.IsSuccess != null){
+    <h2>
+        <a asp-area="UserPannel" asp-controller="UserPannelHome" asp-action="Index">
+            Your Pannel
+        </a>
+    </h2>
+}
+<form asp-area="Users" asp-controller="UserHome" asp-action="SignIn">
+    <div class="input-group">
+        <span class="input-group-addon" id= "username"></span>
+        <input asp-for="EmailOrUsername" type="text" class="form-control" placeholder="Username" />
+    </div>
+    <div class="input-group">
+        <span class="input-group-addon" id="password"></span>
+        <input asp-for="Password" type="password" class="form-control" placeholder="Password" />
+    </div>
+    <div asp-validation-summary="All" class="text-danger"></div>
+    <button type="submit" class="btn btn-success">SignIn!</button>
+    <button type="button">
+        <a asp-area="Users" asp-controller="UserHome" asp-action="SignIn">
+            I Dont have An Account :) SignUp
+        </a>
+    </button>
+    <button type="button">
+        <a asp-area="Users" asp-controller="UserHome" asp-action="ForgotPassword">
+            Forgot Password
+        </a>
+    </button>
+    <button type="button">
+        <a asp-area="Users" asp-controller="UserHome" asp-action="Hello">
+            Hello
+        </a>
+    </button>
+</form>

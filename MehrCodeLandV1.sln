@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32804.467
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MehrCodeLandV1", "MehrCodeLandV1\MehrCodeLandV1.csproj", "{2104FD3C-41C4-42BE-9271-6E769A1429D8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Core", "Core\Core.csproj", "{F15E4CF5-F8DF-4737-88DA-121001477A2B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{785D706F-1D7C-4CC6-A268-ABD35E7E4BE5}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2104FD3C-41C4-42BE-9271-6E769A1429D8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2104FD3C-41C4-42BE-9271-6E769A1429D8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2104FD3C-41C4-42BE-9271-6E769A1429D8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2104FD3C-41C4-42BE-9271-6E769A1429D8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F15E4CF5-F8DF-4737-88DA-121001477A2B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F15E4CF5-F8DF-4737-88DA-121001477A2B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F15E4CF5-F8DF-4737-88DA-121001477A2B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F15E4CF5-F8DF-4737-88DA-121001477A2B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{785D706F-1D7C-4CC6-A268-ABD35E7E4BE5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{785D706F-1D7C-4CC6-A268-ABD35E7E4BE5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{785D706F-1D7C-4CC6-A268-ABD35E7E4BE5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{785D706F-1D7C-4CC6-A268-ABD35E7E4BE5}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24D643A9-3DB3-436A-A7FA-3A17D4805A32}
+	EndGlobalSection
+EndGlobal

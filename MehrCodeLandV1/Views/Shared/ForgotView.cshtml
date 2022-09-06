@@ -1,0 +1,11 @@
+﻿@using Data.Entities
+@model User
+<div style="direction: rtl; padding: 20px">
+    <h2> Deare @Model.Username</h2>
+    <p>
+        Please Reset Your Password !
+    </p>
+    <p>
+        <a href="https://localhost:7195/Users/UserHome/ResetPassword/@Model.ActiveCode">Reset Your Password Now!</a>
+    </p>
+</div>

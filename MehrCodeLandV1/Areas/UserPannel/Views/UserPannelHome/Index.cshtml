@@ -1,0 +1,16 @@
+﻿@using Core.Convertor
+@using Core.DTOs
+@model UserInformationsVm
+@{
+    ViewData["Title"] = "Dear Pannel " + User.Identity.Name;
+    Layout = null;
+}
+
+<h1>User Pannel @User.Identity.Name </h1>
+
+<ul>
+    <li>@Model.UserName</li>
+    <li>@Model.Email</li>
+    <li>@Model.Wallet</li>
+    <li>@Model.RegisterDate.ToShamsi()</li>
+</ul>

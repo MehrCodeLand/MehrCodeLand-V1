@@ -1,0 +1,21 @@
+﻿
+@{
+    Layout = null;
+}
+
+@if(ViewBag.IsActived)
+{
+    <div class="alert alert-success">
+        <p>Your Account Is Active Now</p>
+        <button type="button">
+            <a asp-area="Users" asp-controller="UserHome" asp-action="SignIn">
+                SignIn
+            </a>
+        </button>
+    </div>
+}else
+{
+    <div class="alert alert-danger">
+        <P>Somthings Wrong</P>
+    </div>
+}
