@@ -14,7 +14,7 @@ namespace MehrCodeLandV1.Areas.UserPannel.Controllers
 
         public IActionResult Index()
         {
-            return View(_userService.GetUserInformations(User.Identity.Name));
+            return View(_userService.GetUserInformations(User.Identity.Name)); 
         }
     }
 }
